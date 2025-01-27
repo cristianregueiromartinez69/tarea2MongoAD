@@ -1,0 +1,32 @@
+[
+  {
+    "nome": "España",
+    "organizacion": "monarquía parlamentaria",
+    "partidos": ["PSOE", "PP", "VOX", "Podemos", "Ciudadanos"],
+    "id_presidente": {"oid":  "123456789pedrito"}
+  },
+  {
+    "nome": "Estados Unidos",
+    "organizacion": "democracia",
+    "partidos": ["demócrata", "republicano", "independiente"],
+    "id_presidente": {"oid":  "123456789trumpito"}
+  },
+  {
+    "nome": "Corea del Norte",
+    "organizacion": "dictadura",
+    "partidos": ["Partido de los trabajadores"],
+    "id_presidente": {"oid":  "123456789KinJongunito"}
+  },
+  {
+    "nome": "Reino Unido",
+    "organizacion": "monarquía parlamentaria",
+    "partidos": ["conservador", "laboralista", "liberal demócrata"],
+    "id_presidente": {"oid":  "123456789rishisunakito"}
+  },
+  {
+    "nome": "Francia",
+    "organizacion": "democracia",
+    "partidos": ["La Rèpublique En Marche", "Reagrupación Nacional"],
+    "id_presidente": {"oid":  "123456789emmanuelmacronito"}
+  }
+]

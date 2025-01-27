@@ -1,0 +1,32 @@
+[
+  {
+    "_id": {"oid":  "123456789pedrito"},
+    "nome": "Pedro Sánchez",
+    "idade": 51,
+    "partido": "PSOE"
+  },
+  {
+    "_id": {"oid":  "123456789trumpito"},
+    "nome": "Donald Trump",
+    "idade": 78,
+    "partido": "Partido Republicano"
+  },
+  {
+    "_id": {"oid":  "123456789KinJongunito"},
+    "nome": "Kim Jong-un",
+    "idade": 39,
+    "partido": "Partido de los Trabajadores"
+  },
+  {
+    "_id": {"oid":  "123456789rishisunakito"},
+    "nome": "Rishi Sunak",
+    "idade": 43,
+    "partido": "Conservador"
+  },
+  {
+    "_id": {"oid":  "123456789emmanuelmacronito"},
+    "nome": "Emmanuel Macron",
+    "idade": 46,
+    "partido": "La Rèpublique En Marche"
+  }
+]
