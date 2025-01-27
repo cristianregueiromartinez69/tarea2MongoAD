@@ -1,16 +1,15 @@
-import com.mongodb.client.MongoDatabase;
-import config.MongoDbConnection;
 import controller.Controller;
-import service.LecturaDatosJson;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-
+/**
+ * Clase main desde donde ejecutamos el programa
+ * @author cristian
+ * @version 1.0
+ */
 public class Main {
 
     public static void main(String[] args) {
 
+        //llamamos al metodo del controller para iniciar la aplicacion
         new Controller().logicaPrograma();
 
     }
