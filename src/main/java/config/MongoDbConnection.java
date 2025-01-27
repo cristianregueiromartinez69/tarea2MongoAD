@@ -15,7 +15,7 @@ public class MongoDbConnection {
      * variables provadas, estáticas y finales de la url donde está la base de mongo en la nube y el nombre de la base de datos
      */
     private static final String connectionMongoDb = "mongodb+srv://mongo:mongo@proyectoad.xgtsf.mongodb.net/?retryWrites=true&w=majority&appName=ProyectoAD";
-    private static final String databaseName = "dbpokemons";
+    private static final String databaseName = "dbpolitica";
 
     /**
      * Metodo que crea la conexión a mongo con las variables anteriores

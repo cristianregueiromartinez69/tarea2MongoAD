@@ -19,4 +19,16 @@ public class LecturaDatosJson {
         }
         return null;
     }
+
+    public void readValuesFromDb(List<Map<String, Object>> objectMap){
+        for (Map<String, Object> map : objectMap) {
+            for (Map.Entry<String, Object> entry : map.entrySet()) {
+                String key = entry.getKey();
+                Object value = entry.getValue();
+
+                System.out.println("Clave: " + key + ", Valor: " + value);
+            }
+            System.out.println("-----------X----------");
+        }
+    }
 }
