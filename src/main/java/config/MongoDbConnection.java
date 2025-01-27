@@ -5,7 +5,7 @@ import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoDatabase;
 
 /**
- * Clase de configuracuón para mongoDb
+ * Clase de configuración para mongoDb
  * @author cristian
  * @version 1.0
  */
