@@ -17,12 +17,30 @@ public class Controller {
         List<Map<String, Object>> presidentesList = lecturaDatosJson.readDataJson("presidente.json");
          */
 
-        //lectura de datos
+
+        /*
         List<Map<String, Object>> paisesList = crud.getListaDePaises();
         List<Map<String, Object>> presidentesList = crud.getListaDePresidentes();
 
         lecturaDatosJson.readValuesFromDb(paisesList);
         lecturaDatosJson.readValuesFromDb(presidentesList);
+        */
+
+        /* update de los datos
+        crud.updateDataPaises("España", "Junts", "dictadura");
+        crud.updateDataPresidentes("Pedro Sánchez", 10);
+         */
+
+        /* nueva lectura de la base de datos
+        List<Map<String, Object>> paisesList = crud.getListaDePaises();
+        List<Map<String, Object>> presidentesList = crud.getListaDePresidentes();
+
+        lecturaDatosJson.readValuesFromDb(paisesList);
+        lecturaDatosJson.readValuesFromDb(presidentesList);
+         */
+
+
+
 
 
 

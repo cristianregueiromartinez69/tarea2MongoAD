@@ -92,5 +92,14 @@ public class Crud {
 
     }
 
+    public void deleteDataMongoDB(String nameCollection){
+        MongoDatabase mongoDatabase = MongoDbConnection.getConnectionMongoDB();
+        MongoCollection<Document> collectionMongo = mongoDatabase.getCollection(nameCollection);
+
+        collectionMongo.deleteMany(new Document());
+        System.out.println("coleccion " + nameCollection + " eliminado correctamente");
+
+    }
+
 
 }
